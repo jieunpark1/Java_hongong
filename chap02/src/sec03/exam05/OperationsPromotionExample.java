@@ -44,6 +44,9 @@ public class OperationsPromotionExample {
 		//번외 0으로 나오게 하기
 		int res_int = x / y;
 		System.out.println(res_int); //#0
-	}
+		
+		double res_double = x/y;
+		System.out.println(res_double);//0.0
+	} 
 
 }
